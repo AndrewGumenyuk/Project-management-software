@@ -14,12 +14,12 @@ namespace ProjectManager.ServerService
         /// </summary>
         static void Main()
         {
-            ServiceBase[] ServicesToRun;
-            ServicesToRun = new ServiceBase[] 
+            ServiceBase[] _servicesToRun;
+            _servicesToRun = new ServiceBase[] 
             { 
                 new Service1() 
             };
-            ServiceBase.Run(ServicesToRun);
+            ServiceBase.Run(_servicesToRun);
         }
     }
 }

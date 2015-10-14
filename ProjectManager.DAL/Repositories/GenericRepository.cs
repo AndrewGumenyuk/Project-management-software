@@ -8,7 +8,7 @@ using ProjectManager.Common.DAL.Repositories;
 
 namespace ProjectManager.DAL.Repositories
 {
-    public abstract class GenericRepository<T>  : IGenericRepository<T> where T : class 
+    public abstract class GenericRepository<T> : IGenericRepository<T> where T : class 
     {
         private IDataContext _context;
 

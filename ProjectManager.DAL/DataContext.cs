@@ -16,7 +16,23 @@ namespace ProjectManager.DAL
         public IDbSet<Comment> Comments { get; set; }
         public IDbSet<Component> Components { get; set; }
         public IDbSet<Attachment> Attachments { get; set; }
- 
+
+
+        public new IDbSet<TEntity> Set<TEntity>() where TEntity : class
+        {
+            return base.Set<TEntity>();
+        }
+
+        public new DbEntityEntry Entry(object entity)
+        {
+            return base.Entry(entity);
+        }
+
+        public new void SaveChanges()
+        {
+            base.SaveChanges();
+        }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -40,23 +56,8 @@ namespace ProjectManager.DAL
                     up.MapLeftKey("IssueId");
                     up.MapRightKey("ComponentId");
                     up.ToTable("IssueComponent");
-                }              
+                }
             );
-        }
-
-        public IDbSet<TEntity> Set<TEntity>() where TEntity : class
-        {
-            return base.Set<TEntity>();
-        }
-
-        public DbEntityEntry Entry(object entity)
-        {
-            return base.Entry(entity);
-        }
-
-        public void SaveChanges()
-        {
-            base.SaveChanges();
         }
     }
 }

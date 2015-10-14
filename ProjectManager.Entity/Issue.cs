@@ -1,15 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ProjectManager.Entity.Enumerations;
 
 namespace ProjectManager.Entity
 {
     public class Issue : Abstract.Entity
     {
-        public Guid Id { get; set; }
+        public Issue()
+        {
+            Id = Guid.NewGuid();
+
+            Created = DateTime.Now;
+            Updated = DateTime.Now;
+
+            Children = new List<Issue>();
+            Comments = new List<Comment>();
+            Components = new List<Component>();
+        }
+
+
         public string Name { get; set; }
         public string Description { get; set; }
         public string Environment { get; set; }
@@ -36,17 +45,5 @@ namespace ProjectManager.Entity
 
         public virtual ICollection<Comment> Comments { get; set; }
         public virtual ICollection<Component> Components { get; set; }
-
-        public Issue()
-        {
-            Id = Guid.NewGuid();
-
-            Created = DateTime.Now;
-            Updated = DateTime.Now;
-
-            Children = new List<Issue>();
-            Comments = new List<Comment>();
-            Components = new List<Component>();
-        }
     }
 }

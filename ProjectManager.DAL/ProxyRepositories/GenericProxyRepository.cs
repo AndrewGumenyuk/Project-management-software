@@ -80,7 +80,7 @@ namespace ProjectManager.DAL.ProxyRepositories
         {
             var entity = GetById(id);
 
-            if(entity != null)
+            if (entity != null)
                 _cache.Remove(entity);
 
             return _context.Delete(id);
