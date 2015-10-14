@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="43b55f07-a775-4886-8a20-d7882ab1aeb8" name="DAL" linkedPackageId="37f3dfac-1cbc-4062-bd51-8e80c8fd5b46" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="b5d4e50e-e9e3-46e6-b64b-c8db0e45eacd" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="d3ba2295-a180-42fc-867f-f9f6b577102e" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5f4d1772-0465-4814-8454-864810d496fc">
+          <propertyInstance Id="f506b18e-d5dc-4298-95a6-825e355ca10e" name="BaseName">
+            <elementDefinition Id="acfc2c7a-9773-422b-bad6-ed68de124864" />
+          </propertyInstance>
+          <elementDefinition Id="5c472af9-1dc3-4467-a519-f7ecdb708cd0" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f24265be-9975-4e2e-8d33-c6eee0506d14">
+          <propertyInstance Id="82974d83-1215-47c3-968c-9eda2727b2c8" name="ClrAttributes">
+            <elementDefinition Id="4cd24110-fcbc-46b2-9d6a-603a76dfab90" />
+          </propertyInstance>
+          <elementDefinition Id="ce9d5cdc-dc80-44c3-b7ec-eb584c59460b" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="aed89b2a-85ba-4e1b-bd4f-8324f6e2f04f">
+          <propertyInstance Id="1f4db0cc-2329-43a9-8833-71bfa10a76cc" name="Usings">
+            <elementDefinition Id="ccbc628f-5f45-440e-95e7-a830eaef7eda" />
+          </propertyInstance>
+          <elementDefinition Id="89c3c400-afbf-4428-a6a6-ebe8c1817482" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="b6b1093b-1f7f-4282-adfc-4be00a734822" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="5e32bb48-5ee5-40dc-bb5d-8d8db47b4c3d" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e00fc978-5005-4291-9bf0-86f2d27f790b">
+          <propertyInstance Id="d31d4f0d-4d8a-4e7b-9f7f-edce5d299c45" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="2971e926-4ce2-4197-ad06-543824ef45ec" />
+          </propertyInstance>
+          <elementDefinition Id="0452df29-ac91-4c50-8b2d-7a1cbe0199a8" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3aa4edbe-a75b-4108-a3a4-4224b9cba480">
+          <propertyInstance Id="6ea25509-f22d-4e96-8c6d-dd1fd5b0d89e" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="031f63cb-d094-4bd2-b7ed-cf540a104b3f" />
+          </propertyInstance>
+          <elementDefinition Id="6ac80ac4-3e8a-461f-99fb-1d35df4ba1b8" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1ffc3bae-d665-4c93-a47f-48972d9e71b1">
+          <propertyInstance Id="7d3f21b1-cee8-4df8-9d79-8a3d6555bdba" name="ProjectPath" value="ClassTemplate=..\ProjectManager.ModellingLib\ProjectManager.ModellingLib.csproj|EnumTemplate=..\ProjectManager.ModellingLib\ProjectManager.ModellingLib.csproj|InterfaceTemplate=..\ProjectManager.ModellingLib\ProjectManager.ModellingLib.csproj|StructTemplate=..\ProjectManager.ModellingLib\ProjectManager.ModellingLib.csproj">
+            <elementDefinition Id="7e41eb07-41c9-4a26-bb68-be162104a98d" />
+          </propertyInstance>
+          <elementDefinition Id="a6395fa8-7c2e-4637-ab9e-c95810934ad4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="27d742dd-f873-4196-a3f8-296fe8972026">
+          <propertyInstance Id="127e577a-f238-445d-977b-ed5f07743f8e" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="1d06c6b6-82f9-4c4a-b3e6-4c132c631363" />
+          </propertyInstance>
+          <elementDefinition Id="5ce054b3-b58a-45f2-bdfa-66f6cb88c3c9" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a9f02632-2c7d-470b-8baf-ab9879169c1b">
+          <propertyInstance Id="a1badaba-3ed1-40ce-be34-998e57f6c676" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="6f94bc8f-bd37-48e1-9c2d-5564e561d05e" />
+          </propertyInstance>
+          <elementDefinition Id="4a7668af-400a-40b7-8add-884eba9f8447" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="cd5633d6-e450-41bf-a3d4-4ff2627b7ef7">
+          <propertyInstance Id="60ca41b1-e511-4ac7-8ee8-c738d10f6525" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="4619ff75-5741-45c6-bfb5-b6ba87124d90" />
+          </propertyInstance>
+          <elementDefinition Id="7eba96f3-2fd5-4055-8f18-be66e2d58168" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="43908c9a-46e0-4309-95f8-d0ab0b67411b">
+          <propertyInstance Id="197155df-79e1-4037-94df-628c8a905173" name="Parameters">
+            <elementDefinition Id="7a9d5112-0059-489e-9d7e-453d81b799d8" />
+          </propertyInstance>
+          <elementDefinition Id="e6c8a8d0-16b1-4405-bcee-77f93243bde1" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="52b5efe8-cf8f-42a8-add4-5fad1d4ecdaf" name="DataContext" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5f456bf4-5226-4bae-b603-9e35ed549191" />
+        <suppliersInternal>
+          <interfaceRealization Id="7e45bbb7-edb0-40f6-8d7b-1111f6e0f3eb">
+            <interfaceMoniker Id="54b192a3-20e1-486f-9481-877b407b7d1f" LastKnownName="DbContext" />
+            <elementDefinition Id="5f339755-ae05-4b82-b9b2-83218bbfe4dc" />
+          </interfaceRealization>
+          <interfaceRealization Id="7e52b120-da5e-4011-bac6-1b2df485e15d">
+            <interfaceMoniker Id="d79a059e-66a4-4e0b-af77-d3f8fe7baab9" LastKnownName="IDataContext" />
+            <elementDefinition Id="22c56749-e577-4fe3-8a2d-c34debcf2b69" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cd1fa85e-67e5-4a2f-87a2-452b9d5909d3" name="GenericRepository" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="449b3216-bd5c-4578-9fa1-72ce12883697" />
+        <suppliersInternal>
+          <interfaceRealization Id="f3835bc9-cac7-47c5-bec3-4053b4618ccf">
+            <interfaceMoniker Id="b3dbc692-3d69-4b4f-b5dd-eb42328e0b0a" LastKnownName="IGenericRepository" />
+            <elementDefinition Id="1548505e-382c-46fe-86f5-ad8d75a3776d" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="75b838a6-07ea-428f-8153-356d1efbfd00" isDerived="false" sourceEndRoleName="GenericRepository" targetEndRoleName="DataContext" isLeaf="false" isAbstract="false">
+            <classMoniker Id="52b5efe8-cf8f-42a8-add4-5fad1d4ecdaf" LastKnownName="DataContext" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e4b0d0c4-404a-4e70-8b84-fd08cd7ecac0" name="GenericRepository" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8a10e1d5-38ff-4301-9b72-75b38ffbb7f5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c763ff9c-ea24-4613-ac79-a56d45bd84f4" name="DataContext" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="46a2e42c-406e-45e2-a2bf-ac9f671bdcbd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="73de22fc-4ae9-421f-8109-f3873c800cab" />
+          </association>
+        </targetEnds>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature Id="678645b9-3ca3-436e-b5dc-88c0a864ce91" parameters="" isLeaf="false">
+            <elementDefinition Id="5958e40c-feda-4508-a9a1-b472ededcd1a" />
+            <ownedParameters>
+              <classifierTemplateParameter Id="7b32c6f2-da05-40e1-b709-7ccdecf8e741">
+                <elementDefinition Id="670daedd-4bf8-4768-bd50-3a0fd376bbdd" />
+                <ownedParameterableElement>
+                  <class Id="247296c4-0908-4d95-868f-c1048a04bf15" name="T" isAbstract="false" isLeaf="false" isActiveClass="false">
+                    <elementDefinition Id="08214e42-bf25-400c-96c6-e4285099b4cb" />
+                  </class>
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="d79a059e-66a4-4e0b-af77-d3f8fe7baab9" name="IDataContext" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d9fecf32-6a18-4d42-ba5f-bc7c5459ab01" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="54b192a3-20e1-486f-9481-877b407b7d1f" name="DbContext" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="30c3dbf8-71ca-4029-8336-b7d6aadde59f" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ab411416-0713-4aa0-be67-eaf37fdbf433" name="ConcreteRepositoryA&lt;T&gt;" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="21f00631-4e24-482e-a931-489223c9af7c" />
+        <suppliersInternal>
+          <interfaceRealization Id="33ca1c48-ee9a-46d1-b205-cd66a2c7cfcc">
+            <interfaceMoniker Id="7532f764-e497-49c8-b793-db04096f7de4" LastKnownName="IConcreteRepositoryA" />
+            <elementDefinition Id="0667e26c-8ef9-4e69-a65d-340f623d0be8" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="b98aee71-5626-4316-bee4-e6658fe24aca" isSubstitutable="false">
+            <classMoniker Id="cd1fa85e-67e5-4a2f-87a2-452b9d5909d3" LastKnownName="GenericRepository" />
+            <elementDefinition Id="88487c76-0d3d-4ecd-a733-8a4469528871" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="53a91b28-99b8-4434-97bb-315c1122642f" name="ConcreteRepositoryProxyA&lt;T&gt;" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b439fb78-5152-4bf8-bca5-1f9f3ea48529" />
+        <suppliersInternal>
+          <interfaceRealization Id="6992e582-1386-4adc-a258-0010c4aa4c07">
+            <interfaceMoniker Id="7532f764-e497-49c8-b793-db04096f7de4" LastKnownName="IConcreteRepositoryA" />
+            <elementDefinition Id="33072fee-066e-4f3b-94ab-6731eea60a0a" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="895c3887-4c12-40db-b83f-cef37561fe03" isSubstitutable="false">
+            <classMoniker Id="cd1fa85e-67e5-4a2f-87a2-452b9d5909d3" LastKnownName="GenericRepository" />
+            <elementDefinition Id="873b90ec-6718-4a04-9b16-b28979549f1a" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="d2695677-a142-4340-8d24-67e841adc614" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ab411416-0713-4aa0-be67-eaf37fdbf433" LastKnownName="ConcreteRepositoryA&lt;T&gt;" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="946d56a1-ca68-4a35-b297-967f30d6a9ea" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="488bca59-d523-422f-bb4d-fd5d77e4ef93" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="149af2cb-7e83-410f-bc23-61121403dcbf" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bbff97da-7cec-48f1-9488-e2aaae904de8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="880b5f1a-d284-42db-a0b0-eeed62d2b045" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="64e69286-638c-40d8-be36-48b632a7e01a" name="ConcreteRepositoryB&lt;T&gt;" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b4f0a58a-66b7-4b85-910c-8ca6c00c0512" />
+        <suppliersInternal>
+          <interfaceRealization Id="1a297b5a-aa38-44fb-b5bf-b8147ef79203">
+            <interfaceMoniker Id="e4aaa429-c17c-499b-9828-ec73706b7f1f" LastKnownName="IConcreteRepositoryB" />
+            <elementDefinition Id="0b4f56a0-3f0b-4202-bc52-9ec363c51402" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="9e20b8c7-7eae-4a9e-865d-379cead1f60a" isSubstitutable="false">
+            <classMoniker Id="cd1fa85e-67e5-4a2f-87a2-452b9d5909d3" LastKnownName="GenericRepository" />
+            <elementDefinition Id="c186fa15-d54d-4728-9f3a-388c5ff4ac4a" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4976f5ea-94db-4041-86b6-c7778fa4c653" name="ConcreteRepositoryProxyB&lt;T&gt;" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="797c9089-6443-4449-9520-c91dc0ff741d" />
+        <suppliersInternal>
+          <interfaceRealization Id="711b06b8-7b73-49a7-890a-eebdceec98bf">
+            <interfaceMoniker Id="e4aaa429-c17c-499b-9828-ec73706b7f1f" LastKnownName="IConcreteRepositoryB" />
+            <elementDefinition Id="cf713631-fefc-4d09-a7c9-6fba54071a65" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="ed8b59a9-a03f-40fc-8f3b-9baba1ae1f6e" isSubstitutable="false">
+            <classMoniker Id="cd1fa85e-67e5-4a2f-87a2-452b9d5909d3" LastKnownName="GenericRepository" />
+            <elementDefinition Id="702358f9-850b-4f3f-ade8-01bc74619a54" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="7bfc23e6-6a03-4d25-ac16-9ee53d58ba38" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="64e69286-638c-40d8-be36-48b632a7e01a" LastKnownName="ConcreteRepositoryB&lt;T&gt;" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="805e8eb0-90ac-4411-b6ea-546577772659" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0587f0b0-f8b5-46ac-a443-25693ba22d90" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4d8d70f3-eaed-4767-99b8-7dc86b0b2866" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="91c0b3c0-8bda-4b76-aeff-ca87d5a2cd3a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="47881e49-8e4a-4efe-bed7-e9e61eef5324" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="b3dbc692-3d69-4b4f-b5dd-eb42328e0b0a" name="IGenericRepository" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4fed67e2-564a-4728-a59f-40527d4e214d" />
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature Id="4b90c5f7-b276-4cf9-9d95-e63705c523d7" parameters="" isLeaf="false">
+            <elementDefinition Id="07e22f80-8d71-46a3-a536-e83d963711c2" />
+            <ownedParameters>
+              <classifierTemplateParameter Id="a61fc2af-d734-4157-946a-ae398685ef1d">
+                <elementDefinition Id="cd6b858e-b58f-42fa-9871-ab7a386129f2" />
+                <ownedParameterableElement>
+                  <class Id="e71fac7e-3553-40f2-a74c-6108d2342477" name="T" isAbstract="false" isLeaf="false" isActiveClass="false">
+                    <elementDefinition Id="5caab7e5-d64e-4ef7-b644-e0bbc246a8ba" />
+                  </class>
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="7532f764-e497-49c8-b793-db04096f7de4" name="IConcreteRepositoryA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b87146da-5e1b-49db-8eec-513359137e4e" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="e4aaa429-c17c-499b-9828-ec73706b7f1f" name="IConcreteRepositoryB" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0028b2d2-1a64-41ea-b2f8-d699a49e47b9" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="37f3dfac-1cbc-4062-bd51-8e80c8fd5b46" name="ProjectManager.Modelling">
+    <elementDefinition Id="dfe44afa-0e4d-4466-b925-62f9ec495064" />
+    <profileInstances>
+      <packageHasProfileInstances Id="fe4c6c2b-1834-42ce-a970-63238df870a7">
+        <profileInstance Id="1328cf4d-2b0c-4d3d-9711-86a97018e127" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c1b008f9-96be-43e4-aad2-509d014d0cf3">
+        <profileInstance Id="ecce3e6a-23f0-479b-ba2d-cd007b4b4c98" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3d343d95-634b-42e2-8818-47aa29e931c4">
+        <profileInstance Id="117a5f3e-c091-4fe5-bb46-00467a675399" name="CSharpProfile">
+          <elementDefinition Id="0a6e6122-f6af-44fc-82d9-3660651391a2" />
+        </profileInstance>
+        <elementDefinition Id="af90ad88-9ab6-4269-837b-912007905436" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="bbf43223-0c49-4936-9c79-53f56d5e73a4">
+        <profileInstance Id="11264706-84fa-4f9b-99b8-26c9745cb776" name="TextTemplateBindings">
+          <elementDefinition Id="42127495-1bdb-4df8-8cda-89d100d83f4f" />
+        </profileInstance>
+        <elementDefinition Id="d32b3bfb-d1ea-4716-b8c0-33788a4bbe81" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
