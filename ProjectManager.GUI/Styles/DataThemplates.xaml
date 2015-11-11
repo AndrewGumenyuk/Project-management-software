@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <DataTemplate x:Key="TasksDataTemplate">
+        <Grid Margin="3">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Margin="5" Grid.Row="0" Grid.ColumnSpan="1" Text="{Binding Path=Name}"/>
+            <TextBlock Margin="5" Grid.Row="1" Grid.Column="1" Text="Samuel"/>
+            <TextBlock Margin="5" Grid.Row="1" Grid.Column="0" Text="by Artur Lavrov"/>
+        </Grid>
+    </DataTemplate>
+    <DataTemplate x:Key="CommentsDataTemplate">
+        <Grid Margin="3">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Margin="5" Grid.Row="0" Grid.ColumnSpan="1" Text="{Binding Path=Text}"/>
+            <TextBlock Margin="5" Grid.Row="1" Grid.Column="1" Text="18.06.2015"/>
+            <TextBlock Margin="5" Grid.Row="1" Grid.Column="0" Text="by Artur Lavrov"/>
+        </Grid>
+    </DataTemplate>
+</ResourceDictionary>
